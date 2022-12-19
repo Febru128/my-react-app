@@ -1,0 +1,29 @@
+#layout {
+    height: 100vh;
+}
+
+#layout .logo {
+    height: 36px;
+    margin: 16px;
+    background-color: rgba(255, 255, 255, .3);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trigger {
+   color: white;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-btn {
+    margin-right: 20px;
+    align-items: center;
+}

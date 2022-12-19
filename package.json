@@ -10,9 +10,16 @@
     "@types/node": "^16.18.3",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
+    "antd": "^5.0.6",
+    "axios": "^1.2.1",
+    "dva": "^2.6.0-beta.20",
+    "http-proxy-middleware": "^2.0.6",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.56.2",
     "typescript": "^4.9.3",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "typescript-plugin-css-modules": "^3.4.0"
   }
 }
