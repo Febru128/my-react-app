@@ -28,7 +28,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-<!--
+
 ## api
 
 - 请求层，所有的 API 都写在 api 里面
@@ -79,12 +79,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - 做了未登录的状态拦截
   subscribe 中；使用了路由的listen方法，监听路由的变化，如果本地没有 token,则代表未登录，直接调回/login 登录界面
 
-  ## 权限
+# 权限
   - 我们手动创建了一个菜单树，并且菜单树上有对应的权限，以及菜单对应的组件
   所以说，我们可以直接使用递归的方式，对我们的菜单进行筛选，只留下有权限的使用的菜单
   - 还有对路由进行筛选，没有权限的路由直接不渲染，防止用户直接修改url跳转到对应菜单
 
-  ## 自定义hooks
+# 自定义hooks
 -  插入数据的hooks
    - 可以帮我们完成，插入数据的通用功能
       - 获取表单的数据
